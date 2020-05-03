@@ -1,0 +1,137 @@
+# Пользователи
+GetUsers:
+  path:       /getUsers
+  controller: App\Controller\UsersController::GetUsers
+  methods:    GET
+
+GetUser:
+  path:       /getUser/{id}
+  controller: App\Controller\UsersController::GetUsero
+  methods:    GET
+  defaults:
+    id: 111cf35x-2c4y-483z-a0a9-158621f77a21
+
+PostUser:
+  path:       /postUser
+  controller: App\Controller\UsersController::PostUser
+  methods:    POST
+
+PutUser:
+  path:       /putUser/{id}
+  controller: App\Controller\UsersController::PutUser
+  methods:    PUT
+  defaults:
+    id: 111cf35x-2c4y-483z-a0a9-158621f77a21
+
+DeleteUser:
+  path:       /deleteUser/{id}
+  controller: App\Controller\UsersController::DeleteUser
+  methods:    DELETE
+# Планы
+GetPlans:
+  path:       /getPlans
+  controller: App\Controller\PlansController::GetPlans
+  methods:    GET
+
+GetPlan:
+  path:       /getPlan/{id}
+  controller: App\Controller\PlansController::GetPlan
+  methods:    GET
+  defaults:
+    id: 999cf35x-2c4y-483z-a0a9-158621f77a21
+
+PostPLan:
+  path:       /postPlan
+  controller: App\Controller\PlansController::PostPlan
+  methods:    POST
+
+PutPlan:
+  path:       /putPlan/{id}
+  controller: App\Controller\PlansController::PutPlan
+  methods:    PUT
+  defaults:
+    id: 999cf35x-2c4y-483z-a0a9-158621f77a21
+
+DeletePlan:
+  path:       /deletePlan/{id}
+  controller: App\Controller\PlansController::DeletePlan
+  methods:    DELETE
+  defaults:
+    id: 999cf35x-2c4y-483z-a0a9-158621f77a21
+# Категории
+GetCategories:
+  path:       /getCategories
+  controller: App\Controller\CategoriesController::GetCategories
+  methods:    GET
+
+GetCategory:
+  path:       /getCategory/{id}
+  controller: App\Controller\CategoriesController::GetCategory
+  methods:    GET
+  defaults:
+    id: 999cf35x-2c4y-483z-a0a9-158621f77a21
+
+PostCategory:
+  path:       /postCategory
+  controller: App\Controller\CategoriesController::PostCategory
+  methods:    POST
+
+PutCategory:
+  path:       /putCategory/{id}
+  controller: App\Controller\CategoriesController::PutCategory
+  methods:    PUT
+  defaults:
+    id: 999cf35x-2c4y-483z-a0a9-158621f77a21
+
+DeleteCategory:
+  path:       /deleteCategory/{id}
+  controller: App\Controller\CategoriesController::DeleteCategory
+  methods:    DELETE
+  defaults:
+    id: 999cf35x-2c4y-483z-a0a9-158621f77a21
+
+# Объявления
+GetAnnouncements:
+  path:       /getAnnouncements
+  controller: App\Controller\AnnouncementsController::GetAnnouncements
+  methods:    GET
+
+GetAnnouncement:
+  path:       /getAnnouncement/{id}
+  controller: App\Controller\AnnouncementsController::GetAnnouncement
+  methods:    GET
+  defaults:
+    id: 999cf35x-2c4y-483z-a0a9-158621f77a21
+
+GetAnnouncementsOfUser:
+  path:       /getAnnouncementsOfUser/{userId}
+  controller: App\Controller\AnnouncementsController::GetAnnouncementsOfUser
+  methods:    GET
+  defaults:
+    userId: 999cf35x-2c4y-483z-a0a9-158621f77a21
+
+GetAnnouncementsOfCategory:
+  path:       /getAnnouncementsOfCategory/{categoryId}
+  controller: App\Controller\AnnouncementsController::GetAnnouncementsOfCategory
+  methods:    GET
+  defaults:
+    categoryId: 999cf35x-2c4y-483z-a0a9-158621f77a21
+
+PostAnnouncement:
+  path:       /postAnnouncement
+  controller: App\Controller\AnnouncementsController::PostAnnouncement
+  methods:    POST
+
+PutAnnouncement:
+  path:       /putAnnouncement/{id}
+  controller: App\Controller\AnnouncementsController::PutAnnouncement
+  methods:    PUT
+  defaults:
+    id: 999cf35x-2c4y-483z-a0a9-158621f77a21
+
+DeleteAnnouncement:
+  path:       /deleteAnnouncement/{id}
+  controller: App\Controller\AnnouncementsController::DeleteAnnouncement
+  methods:    DELETE
+  defaults:
+    id: 999cf35x-2c4y-483z-a0a9-158621f77a21
